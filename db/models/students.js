@@ -1,10 +1,10 @@
-'use strict'
+"use strict";
 
-const Sequelize = require('sequelize');
-const db = require('../db');
+const Sequelize = require("sequelize");
+const db = require("../db");
 
 const Student = db.define(
-  'student',
+  "student",
   {
     firstName: {
       type: Sequelize.STRING,
